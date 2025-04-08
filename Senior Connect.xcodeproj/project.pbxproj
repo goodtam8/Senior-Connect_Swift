@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A431B2292CE8A0E200577DD9 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A431B2282CE8A0E200577DD9 /* FirebaseAnalytics */; };
+		A431B22B2CE8A0E200577DD9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A431B22A2CE8A0E200577DD9 /* FirebaseAuth */; };
+		A431B22D2CE8A0E200577DD9 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A431B22C2CE8A0E200577DD9 /* FirebaseAuthCombine-Community */; };
+		A431B2302CE8A52B00577DD9 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = A431B22F2CE8A52B00577DD9 /* GoogleSignIn */; };
+		A431B2322CE8A52B00577DD9 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A431B2312CE8A52B00577DD9 /* GoogleSignInSwift */; };
+		A431B2592CE8E6AB00577DD9 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = A431B2582CE8E6AB00577DD9 /* FirebaseMessaging */; };
+		A431B25B2CE8E6C600577DD9 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = A431B25A2CE8E6C600577DD9 /* FirebaseMessaging */; };
+		A431B25E2CE8EAA500577DD9 /* FacebookAEM in Frameworks */ = {isa = PBXBuildFile; productRef = A431B25D2CE8EAA500577DD9 /* FacebookAEM */; };
+		A431B2602CE8EAA500577DD9 /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = A431B25F2CE8EAA500577DD9 /* FacebookBasics */; };
+		A431B2622CE8EAA500577DD9 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = A431B2612CE8EAA500577DD9 /* FacebookCore */; };
+		A431B2642CE8EAA500577DD9 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = A431B2632CE8EAA500577DD9 /* FacebookLogin */; };
+		A46629242CFA0DC300D55EB4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A46629232CFA0DC300D55EB4 /* FirebaseFirestore */; };
+		A46629262CFA0DC300D55EB4 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A46629252CFA0DC300D55EB4 /* FirebaseStorage */; };
+		A46629332CFA181B00D55EB4 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A46629322CFA181B00D55EB4 /* SDWebImageSwiftUI */; };
+		A46629812CFA226400D55EB4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A46629802CFA226400D55EB4 /* FirebaseFirestore */; };
+		A46629832CFA226400D55EB4 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A46629822CFA226400D55EB4 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A431B2052CE8988E00577DD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A431B1EA2CE8988C00577DD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A431B1F12CE8988C00577DD9;
+			remoteInfo = "Senior Connect";
+		};
+		A431B20F2CE8988E00577DD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A431B1EA2CE8988C00577DD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A431B1F12CE8988C00577DD9;
+			remoteInfo = "Senior Connect";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A431B1F22CE8988C00577DD9 /* Senior Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Senior Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A431B2042CE8988E00577DD9 /* Senior ConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Senior ConnectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A431B20E2CE8988E00577DD9 /* Senior ConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Senior ConnectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A431B2072CE8988E00577DD9 /* Senior ConnectTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Senior ConnectTests";
+			sourceTree = "<group>";
+		};
+		A431B2112CE8988E00577DD9 /* Senior ConnectUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Senior ConnectUITests";
+			sourceTree = "<group>";
+		};
+		A431B2CA2CEA050600577DD9 /* Senior Connect */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Senior Connect";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A431B1EF2CE8988C00577DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46629332CFA181B00D55EB4 /* SDWebImageSwiftUI in Frameworks */,
+				A431B2602CE8EAA500577DD9 /* FacebookBasics in Frameworks */,
+				A431B2622CE8EAA500577DD9 /* FacebookCore in Frameworks */,
+				A431B25E2CE8EAA500577DD9 /* FacebookAEM in Frameworks */,
+				A431B2592CE8E6AB00577DD9 /* FirebaseMessaging in Frameworks */,
+				A46629832CFA226400D55EB4 /* FirebaseStorage in Frameworks */,
+				A431B2322CE8A52B00577DD9 /* GoogleSignInSwift in Frameworks */,
+				A46629242CFA0DC300D55EB4 /* FirebaseFirestore in Frameworks */,
+				A431B2642CE8EAA500577DD9 /* FacebookLogin in Frameworks */,
+				A46629812CFA226400D55EB4 /* FirebaseFirestore in Frameworks */,
+				A431B25B2CE8E6C600577DD9 /* FirebaseMessaging in Frameworks */,
+				A46629262CFA0DC300D55EB4 /* FirebaseStorage in Frameworks */,
+				A431B2292CE8A0E200577DD9 /* FirebaseAnalytics in Frameworks */,
+				A431B2302CE8A52B00577DD9 /* GoogleSignIn in Frameworks */,
+				A431B22D2CE8A0E200577DD9 /* FirebaseAuthCombine-Community in Frameworks */,
+				A431B22B2CE8A0E200577DD9 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A431B2012CE8988E00577DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A431B20B2CE8988E00577DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A431B1E92CE8988C00577DD9 = {
+			isa = PBXGroup;
+			children = (
+				A431B2CA2CEA050600577DD9 /* Senior Connect */,
+				A431B2072CE8988E00577DD9 /* Senior ConnectTests */,
+				A431B2112CE8988E00577DD9 /* Senior ConnectUITests */,
+				A431B1F32CE8988C00577DD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A431B1F32CE8988C00577DD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A431B1F22CE8988C00577DD9 /* Senior Connect.app */,
+				A431B2042CE8988E00577DD9 /* Senior ConnectTests.xctest */,
+				A431B20E2CE8988E00577DD9 /* Senior ConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A431B1F12CE8988C00577DD9 /* Senior Connect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A431B2182CE8988E00577DD9 /* Build configuration list for PBXNativeTarget "Senior Connect" */;
+			buildPhases = (
+				A431B1EE2CE8988C00577DD9 /* Sources */,
+				A431B1EF2CE8988C00577DD9 /* Frameworks */,
+				A431B1F02CE8988C00577DD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A431B2CA2CEA050600577DD9 /* Senior Connect */,
+			);
+			name = "Senior Connect";
+			packageProductDependencies = (
+				A431B2282CE8A0E200577DD9 /* FirebaseAnalytics */,
+				A431B22A2CE8A0E200577DD9 /* FirebaseAuth */,
+				A431B22C2CE8A0E200577DD9 /* FirebaseAuthCombine-Community */,
+				A431B22F2CE8A52B00577DD9 /* GoogleSignIn */,
+				A431B2312CE8A52B00577DD9 /* GoogleSignInSwift */,
+				A431B2582CE8E6AB00577DD9 /* FirebaseMessaging */,
+				A431B25A2CE8E6C600577DD9 /* FirebaseMessaging */,
+				A431B25D2CE8EAA500577DD9 /* FacebookAEM */,
+				A431B25F2CE8EAA500577DD9 /* FacebookBasics */,
+				A431B2612CE8EAA500577DD9 /* FacebookCore */,
+				A431B2632CE8EAA500577DD9 /* FacebookLogin */,
+				A46629232CFA0DC300D55EB4 /* FirebaseFirestore */,
+				A46629252CFA0DC300D55EB4 /* FirebaseStorage */,
+				A46629322CFA181B00D55EB4 /* SDWebImageSwiftUI */,
+				A46629802CFA226400D55EB4 /* FirebaseFirestore */,
+				A46629822CFA226400D55EB4 /* FirebaseStorage */,
+			);
+			productName = "Senior Connect";
+			productReference = A431B1F22CE8988C00577DD9 /* Senior Connect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A431B2032CE8988E00577DD9 /* Senior ConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A431B21B2CE8988E00577DD9 /* Build configuration list for PBXNativeTarget "Senior ConnectTests" */;
+			buildPhases = (
+				A431B2002CE8988E00577DD9 /* Sources */,
+				A431B2012CE8988E00577DD9 /* Frameworks */,
+				A431B2022CE8988E00577DD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A431B2062CE8988E00577DD9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A431B2072CE8988E00577DD9 /* Senior ConnectTests */,
+			);
+			name = "Senior ConnectTests";
+			packageProductDependencies = (
+			);
+			productName = "Senior ConnectTests";
+			productReference = A431B2042CE8988E00577DD9 /* Senior ConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A431B20D2CE8988E00577DD9 /* Senior ConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A431B21E2CE8988E00577DD9 /* Build configuration list for PBXNativeTarget "Senior ConnectUITests" */;
+			buildPhases = (
+				A431B20A2CE8988E00577DD9 /* Sources */,
+				A431B20B2CE8988E00577DD9 /* Frameworks */,
+				A431B20C2CE8988E00577DD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A431B2102CE8988E00577DD9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A431B2112CE8988E00577DD9 /* Senior ConnectUITests */,
+			);
+			name = "Senior ConnectUITests";
+			packageProductDependencies = (
+			);
+			productName = "Senior ConnectUITests";
+			productReference = A431B20E2CE8988E00577DD9 /* Senior ConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A431B1EA2CE8988C00577DD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					A431B1F12CE8988C00577DD9 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					A431B2032CE8988E00577DD9 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = A431B1F12CE8988C00577DD9;
+					};
+					A431B20D2CE8988E00577DD9 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = A431B1F12CE8988C00577DD9;
+					};
+				};
+			};
+			buildConfigurationList = A431B1ED2CE8988C00577DD9 /* Build configuration list for PBXProject "Senior Connect" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A431B1E92CE8988C00577DD9;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A431B2272CE8A0E200577DD9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				A431B22E2CE8A52B00577DD9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				A431B25C2CE8EAA500577DD9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				A46629312CFA181B00D55EB4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A431B1F32CE8988C00577DD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A431B1F12CE8988C00577DD9 /* Senior Connect */,
+				A431B2032CE8988E00577DD9 /* Senior ConnectTests */,
+				A431B20D2CE8988E00577DD9 /* Senior ConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A431B1F02CE8988C00577DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A431B2022CE8988E00577DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A431B20C2CE8988E00577DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A431B1EE2CE8988C00577DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A431B2002CE8988E00577DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A431B20A2CE8988E00577DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A431B2062CE8988E00577DD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A431B1F12CE8988C00577DD9 /* Senior Connect */;
+			targetProxy = A431B2052CE8988E00577DD9 /* PBXContainerItemProxy */;
+		};
+		A431B2102CE8988E00577DD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A431B1F12CE8988C00577DD9 /* Senior Connect */;
+			targetProxy = A431B20F2CE8988E00577DD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A431B2162CE8988E00577DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A431B2172CE8988E00577DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A431B2192CE8988E00577DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Senior Connect/Senior Connect.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Senior Connect/Preview Content\"";
+				DEVELOPMENT_TEAM = 68LMB7BF43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Senior-Connect-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hk.edu.hkbu.comp.SC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A431B21A2CE8988E00577DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Senior Connect/Senior Connect.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Senior Connect/Preview Content\"";
+				DEVELOPMENT_TEAM = 68LMB7BF43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Senior-Connect-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hk.edu.hkbu.comp.SC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A431B21C2CE8988E00577DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.hkbu.comp.Senior-ConnectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Senior Connect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Senior Connect";
+			};
+			name = Debug;
+		};
+		A431B21D2CE8988E00577DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.hkbu.comp.Senior-ConnectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Senior Connect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Senior Connect";
+			};
+			name = Release;
+		};
+		A431B21F2CE8988E00577DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.hkbu.comp.Senior-ConnectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Senior Connect";
+			};
+			name = Debug;
+		};
+		A431B2202CE8988E00577DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.hkbu.comp.Senior-ConnectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Senior Connect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A431B1ED2CE8988C00577DD9 /* Build configuration list for PBXProject "Senior Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A431B2162CE8988E00577DD9 /* Debug */,
+				A431B2172CE8988E00577DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A431B2182CE8988E00577DD9 /* Build configuration list for PBXNativeTarget "Senior Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A431B2192CE8988E00577DD9 /* Debug */,
+				A431B21A2CE8988E00577DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A431B21B2CE8988E00577DD9 /* Build configuration list for PBXNativeTarget "Senior ConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A431B21C2CE8988E00577DD9 /* Debug */,
+				A431B21D2CE8988E00577DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A431B21E2CE8988E00577DD9 /* Build configuration list for PBXNativeTarget "Senior ConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A431B21F2CE8988E00577DD9 /* Debug */,
+				A431B2202CE8988E00577DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A431B2272CE8A0E200577DD9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+		A431B22E2CE8A52B00577DD9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		A431B25C2CE8EAA500577DD9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
+		A46629312CFA181B00D55EB4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A431B2282CE8A0E200577DD9 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A431B2272CE8A0E200577DD9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		A431B22A2CE8A0E200577DD9 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A431B2272CE8A0E200577DD9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A431B22C2CE8A0E200577DD9 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A431B2272CE8A0E200577DD9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		A431B22F2CE8A52B00577DD9 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A431B22E2CE8A52B00577DD9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		A431B2312CE8A52B00577DD9 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A431B22E2CE8A52B00577DD9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		A431B2582CE8E6AB00577DD9 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseMessaging;
+		};
+		A431B25A2CE8E6C600577DD9 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseMessaging;
+		};
+		A431B25D2CE8EAA500577DD9 /* FacebookAEM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A431B25C2CE8EAA500577DD9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookAEM;
+		};
+		A431B25F2CE8EAA500577DD9 /* FacebookBasics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A431B25C2CE8EAA500577DD9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookBasics;
+		};
+		A431B2612CE8EAA500577DD9 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A431B25C2CE8EAA500577DD9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		A431B2632CE8EAA500577DD9 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A431B25C2CE8EAA500577DD9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		A46629232CFA0DC300D55EB4 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseFirestore;
+		};
+		A46629252CFA0DC300D55EB4 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseStorage;
+		};
+		A46629322CFA181B00D55EB4 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A46629312CFA181B00D55EB4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		A46629802CFA226400D55EB4 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseFirestore;
+		};
+		A46629822CFA226400D55EB4 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A431B1EA2CE8988C00577DD9 /* Project object */;
+}
